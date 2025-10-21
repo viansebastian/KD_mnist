@@ -12,10 +12,10 @@ To demonstrate how **model compression** through knowledge distillation can sign
 
 ## ⚙️ Experimental Setup
 
-| Model | Size | Parameters | Avg. Inference Time (ms) |
-|:------|------:|------------:|-------------------------:|
-| 🧑‍🏫 Teacher | 0.85 MB | 70,851 | 42.76 |
-| 👩‍🎓 Student | 0.17 MB | 11,875 | 40.83 |
+| Model | Size | Parameters | Avg. Inference Time (ms) | Avg Accuracy|
+|:------|------:|------------:|-------------------------:|------:|
+| 🧑‍🏫 Teacher | 0.85 MB | 70,851 | 42.76 | 0.99 |
+| 👩‍🎓 Student | 0.17 MB | 11,875 | 40.83 | 0.99 |
 
 > Both models were trained on the **MNIST** dataset using a standard KD loss that combines soft and hard labels.
 
